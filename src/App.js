@@ -12,12 +12,11 @@ function App() {
     event.preventDefault(); // para não atualizar a página.
     
     alert('Usuário registrado com sucesso!');
-
     setUser({
       nome: nome,
       idade: idade,
       email: email,
-    })    
+    });    
   }
 
   return (
@@ -55,7 +54,6 @@ function App() {
         <span>Bem vindo: {user.nome}</span> <br/>
         <span>Idade: {user.idade}</span> <br/>
         <span>Email: {user.email}</span> <br/>
-
       </div>
     </div>
   );

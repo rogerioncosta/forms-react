@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    font-family: Segoe UI;    
+}
+
+header{
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+header a{
+    color: white;   
+    margin-left: 10px; 
+}
+
+/* Produto */
+span{
+    color: white;
+    background-color: gray;
+    border-radius: 4px;
+    padding: 1px;
+}
